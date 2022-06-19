@@ -1,0 +1,98 @@
+body {
+    background-color: #ffffff;
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: black;
+    text-align: center;    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.timer, .errors, .accuracy,
+.cpm, .wpm {
+    background-color: #ccd957;
+    color: #000000;
+    font-weight: bold;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: rgb(0, 0, 0) 5px 8px 5px;
+}
+
+.cpm, .wpm {
+    display: none;
+}
+
+.header_text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm,
+.curr_wpm {
+    font-size: 2.75rem;
+}
+
+.info {
+    background-color: #ccd957;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+    border-radius: 15px;
+}
+
+.input_area {
+    background-color: rgb(255, 252, 154);
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: rgb(0, 0, 60) 5px 8px 1px;
+    border-radius: 0px 22px;
+}
+
+.restart_btn {
+    display: none;
+    background-color: #2c6965;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 3px 6px 6px;
+}
+
+.incorrect_char {
+    color: red;
+    text-decoration: underline;
+}
+
+.correct_char {
+    color: rgb(0, 152, 0);
+}
